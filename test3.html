@@ -2,6 +2,14 @@
 
 <html lang="en">
 <head>
+
+	<script>
+		dataLayer = [{
+			'pageCategory': 'TEST',
+			'visitorType': 'Developer'
+		}];
+	</script>
+
 	 <!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,7 +36,7 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<h1> Test 3 </h1>
-	<p> This page is utilizing the data layer to send specific data from our "Server". In reality it is just passing a variable defined in the pages javascript, that gets executed before any analytics load.</p>
+	<p> This page is utilizing the data layer to send specific data from our "Server". In this example it is just passing a variable defined in the pages javascript, that gets pushed before any analytics load.</p>
 
 	<div id="navigation">
 		<a href = 'index.html'><button>Home</button></a>
